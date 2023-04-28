@@ -15,5 +15,5 @@ The project exposes 2 endpoints:
 Initial tests show that container is unstable, resetting quite often.
 
 ToDo:
-- [] Further test performance
-- [] Expose socket for remote connectivity
+- [ ] Further test performance
+- [ ] Expose socket for remote connectivity
