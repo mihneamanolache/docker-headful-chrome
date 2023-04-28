@@ -114,7 +114,7 @@ RUN npm install
 
 # Copy handler function and tsconfig
 COPY index.js ./
-COPY helpers.js /
+COPY helpers.js ./
 
 # Expose app
 EXPOSE 3000
