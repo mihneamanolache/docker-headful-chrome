@@ -13,6 +13,9 @@ ENV PATH $NODE_PATH:$PATH
 RUN apt-get -qq update && \
   apt-get -qq dist-upgrade
 
+# Install xvfb
+RUN apt-get -y install xvfb
+
 # Accept Microsoft EULA agreement for ttf-mscorefonts-installer
 RUN echo "ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true" | debconf-set-selections
 
