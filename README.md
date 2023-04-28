@@ -1,4 +1,4 @@
-# Dockerr Headful Chrome
+# Docker Headful Chrome
 To build image:
 ```bash
 git clone git@github.com:mihneamanolache/docker-headful-chrome.git
