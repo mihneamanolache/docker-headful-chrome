@@ -2,7 +2,7 @@ import express from 'express';
 import puppeteer from "puppeteer";
 import dotenv from "dotenv";
 import Xvfb from "xvfb";
-import { isValidUrl } from './helpers';
+import { isValidUrl } from './helpers.js';
 
 dotenv.config()
 
