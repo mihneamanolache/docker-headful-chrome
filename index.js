@@ -50,7 +50,7 @@ app.get('/screenshot', async (req, res) => {
                 browserWSEndpoint: await getWs()
             })
             const page = await browser.newPage();
-            await page.goto("https://www.netflix.com/ca/Login", {'waitUntil' : 'networkidle0'});
+            await page.goto(req.query.url, {'waitUntil' : 'domcontentloaded'});
             const img = await page.screenshot({
                 fullPage: true,
             });
